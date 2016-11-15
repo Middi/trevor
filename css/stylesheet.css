@@ -61,7 +61,10 @@ li {
     #banner {
         height: 700px;
     }
+.email {
 
+  display: none;
+}
 
     .social {
         width: 390px;
@@ -129,6 +132,11 @@ li {
   }
 
 
+  .email {
+
+    display: none;
+  }
+
 
 #about-me {
   height: 500px;
@@ -184,10 +192,20 @@ li {
 
 }
 
-@media screen and (max-width: 999px) and (min-width: 800px) {
+@media screen and (max-width: 999px) and (min-width: 750px) {
     #banner {
         height: 700px;
     }
+
+
+    .topbar {
+        display: none;
+    }
+    .email {
+
+      display: none;
+    }
+
 
 .about h2 {
   display: none;
@@ -217,7 +235,7 @@ li {
         display: none;
     }
     #music {
-        height: 1000px;
+        height: 1200px;
     }
     #about-me {
         height: 600px;
@@ -250,10 +268,13 @@ li {
 
 }
 
-@media screen and (max-width: 799px) and (min-width: 600px) {
+@media screen and (max-width: 749px) and (min-width: 600px) {
     #banner {
         height: 500px;
     }
+
+
+
 
     .logo {
         width: 540px;
@@ -460,6 +481,7 @@ li {
         height: 50px;
         width: 58px;
         padding: 0 4px;
+
     }
     .content {
         top: -30px;
@@ -693,7 +715,8 @@ a:hover {
 }
 
 a img {
-    opacity: 1;
+
+  opacity: 1 !important;
 
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
@@ -702,7 +725,8 @@ a img {
 }
 
 a img:hover {
-    opacity: 0.8;
+
+  opacity: 0.8 !important;
 }
 
 
@@ -989,4 +1013,40 @@ footer p {
 .logo {
 
   opacity: 0.9;
+}
+.email {
+
+  background-color: #D50000;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  color: white !important;
+  padding: 15px 0;
+  font-size: 0.8rem !important;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+  -webkit-box-shadow:
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.email a {
+  color: white !important;
+  font-size: 0.8rem !important;
+}
+
+
+.email:hover {
+  background-color: #D32F2F;
 }
