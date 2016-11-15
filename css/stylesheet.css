@@ -946,3 +946,9 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+
+.logo {
+
+  opacity: 0.9;
+}
