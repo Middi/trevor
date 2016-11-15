@@ -79,6 +79,12 @@ li {
         width: auto;
         text-align: center;
     }
+
+    .about h2 {
+      line-height: 90px !important;
+    }
+
+
     #music {
         height: 850px;
     }
@@ -118,6 +124,9 @@ li {
 
 
 
+  .about h2 {
+    line-height: 90px !important;
+  }
 
 
 
