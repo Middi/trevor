@@ -1,0 +1,872 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: gravityul;
+    src: url('../font/Gravity-UltraLight.otf');
+}
+
+body {
+    font-family: gravityul, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 22;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+    list-style: none;
+    padding-top: 10px;
+    height: 40px;
+    width: 600px;
+    opacity: 1 !important;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+
+    opacity: 1 !important;
+}
+
+@media screen and (min-width: 1500px) {
+    #banner {
+        height: 700px;
+    }
+    .social {
+        width: 360px;
+    }
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+    .content {
+        top: 100px;
+    }
+    .logo {
+        height: 300px;
+        width: auto;
+        text-align: center;
+    }
+    #music {
+        height: 850px;
+    }
+    .musicflex {
+        padding: 0 15px;
+    }
+    .soundframe {
+        width: 460px;
+        padding-right: 10px;
+    }
+    .sheetmusic {
+        width: 460px;
+        height: 400px;
+    }
+    #video {
+        height: 700px;
+    }
+    .more {
+        margin-top: 50px;
+    }
+    .about {
+        vertical-align: top;
+        padding-top: 20px;
+    }
+
+    #contact {
+        height: 600px;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  #banner {
+      height: 700px;
+  }
+
+#about-me {
+  height: 500px;
+}
+
+  .social {
+      width: 360px;
+  }
+  .social img {
+      width: 40px;
+      height: 40px;
+  }
+  .content {
+      top: 100px;
+  }
+  .logo {
+      height: 300px;
+      width: auto;
+      text-align: center;
+  }
+    .about p {
+        padding: 0 20px;
+    }
+    #music {
+        height: 850px;
+    }
+    .soundframe {
+        width: 460px;
+        padding-right: 10px;
+    }
+    .sheetmusic {
+        width: 460px;
+        height: 400px;
+    }
+    #video {
+        height: 700px;
+    }
+    .more {
+        margin-top: 50px;
+    }
+
+    #contact{
+      height:500px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+    #banner {
+        height: 700px;
+    }
+
+.about h2 {
+  display: none;
+}
+
+.about p {
+    padding-top: 10px;
+}
+    .social {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .social img {
+        height: 40px;
+        width: 44px;
+        padding: 0 2px;
+    }
+    #vid6 {
+        display: none;
+    }
+    #vid5 {
+        display: none;
+    }
+    #music {
+        height: 1000px;
+    }
+    #about-me {
+        height: 600px;
+    }
+    .soundframe {
+        width: 420px;
+        padding-right: 10px;
+    }
+    .sheetmusic {
+        width: 420px;
+        height: 370px;
+    }
+    #video {
+        height: 650px;
+    }
+    .more {
+        margin-top: 50px;
+    }
+
+    #contact {
+
+      height: 500px;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+    #banner {
+        height: 500px;
+    }
+
+    .logo {
+        width: 540px;
+        height: auto;
+        text-align: center;
+    }
+
+
+    #about-me {
+        height: 650px;
+    }
+    #about-me h2 {
+        display: none;
+    }
+    .about p {
+        padding-top: 10px;
+    }
+    .social {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .social img {
+        height: 70px;
+        width: 80px;
+        padding: 0 5px;
+    }
+    .topbar {
+        display: none;
+    }
+    #vid6 {
+        display: none;
+    }
+    #vid5 {
+        display: none;
+    }
+    #vid4 {
+        display: none;
+    }
+    #vid3 {
+        display: none;
+    }
+    #vid2 {
+        width: 480px;
+        height: 300px;
+    }
+    #vid1 {
+        width: 480px;
+        height: 300px;
+    }
+    #music {
+        height: 1200px;
+    }
+    .soundframe {
+        width: 460px;
+        padding-bottom: 30px;
+    }
+    .sheetmusic {
+        width: 460px;
+        height: 400px;
+    }
+    #video {
+        height: 900px;
+    }
+    .more {
+        margin-top: 300px;
+    }
+    .available h2 {
+        font-size: 2.5rem;
+    }
+    .wrapper2 {
+        text-align: center;
+    }
+
+
+        #contact {
+
+          height: 500px;
+        }
+}
+
+@media screen and (max-width: 599px) and (min-width: 421px) {
+  #banner {
+      height: 500px;
+  }
+  #about-me {
+      height: 700px;
+  }
+
+  .about {
+      width: 100%;
+      display: inline-block;
+  }
+  .about p {
+      padding-top: 10px;
+      font-size: 1.5rem;
+  }
+  .about h2 {
+      display: none;
+  }
+  .social {
+      width: 100%;
+      padding-top: 10px;
+  }
+  .social img {
+      height: 70px;
+      width: 80px;
+      padding: 0 5px;
+  }
+    .topbar {
+        display: none;
+    }
+
+    .logo {
+        width: 350px;
+        height: auto;
+        text-align: center;
+    }
+    #vid6 {
+        display: none;
+    }
+    #vid5 {
+        display: none;
+    }
+    #vid4 {
+        display: none;
+    }
+    #vid3 {
+        display: none;
+    }
+    #vid2 {
+        display: none;
+    }
+    #vid1 {
+        width: 380px;
+        height: 220px;
+    }
+    #music {
+        height: 1100px;
+    }
+    .soundframe {
+        width: 320px;
+        padding-bottom: 20px;
+    }
+    .sheetmusic {
+        width: 320px;
+    }
+    #video {
+        height: 500px;
+    }
+
+    #contact {
+      height: 500px;
+    }
+    .more {
+        margin-top: -100px;
+    }
+    .available h2 {
+        font-size: 1.5rem !important;
+    }
+    #contact a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 420px) and (min-width: 322px) {
+    #banner {
+        height: 250px;
+    }
+    .about-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .about {
+        width: 100%;
+        display: inline-block;
+    }
+    .about p {
+        padding-top: 10px;
+        font-size: 1.3rem;
+    }
+    .about h2 {
+        display: none;
+    }
+    .social {
+        width: 100%;
+    }
+    .social img {
+        height: 50px;
+        width: 58px;
+        padding: 0 4px;
+    }
+    .content {
+        top: -30px;
+    }
+    .logo {
+        height: 100px;
+        width: auto;
+        text-align: center;
+    }
+    .topbar {
+        display: none;
+    }
+    .text h4 {
+        font-size: 1rem;
+    }
+    .wrapper2 {
+        text-align: center;
+    }
+    #vid6 {
+        display: none;
+    }
+    #vid5 {
+        display: none;
+    }
+    #vid4 {
+        display: none;
+    }
+    #vid3 {
+        display: none;
+    }
+    #vid2 {
+        display: none;
+    }
+    #vid1 {
+        width: 320px;
+        height: 200px;
+    }
+
+    #about-me {
+      height: 500px;
+    }
+    #music {
+        height: 1060px;
+    }
+    .soundframe {
+        width: 320px;
+        padding-bottom: 20px;
+    }
+    .sheetmusic {
+        width: 320px;
+    }
+    #video {
+        height: 480px;
+    }
+    .more {
+        margin-top: -100px;
+    }
+    body h2 {
+        font-size: 2rem;
+    }
+    .available h2 {
+        font-size: 1.4rem !important;
+    }
+    #contact a {
+        font-size: 1.2rem;
+    }
+
+    #contact {
+
+      height: 450px;
+    }
+    .contentf-inside {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    footer {
+        height: 15px;
+        padding-top: 7px;
+        background-color: white !important;
+    }
+    footer p {
+        font-size: 0.6rem;
+        color: #aaa;
+    }
+}
+
+@media screen and (max-width: 321px) and (min-width: 100px) {
+    #banner {
+        height: 200px;
+    }
+    .social {
+        width: 100%;
+    }
+    .social img {
+        height: 38px;
+        width: 42px;
+        padding: 0 2px;
+    }
+    .about-img img {
+        width: 180px;
+        height: 180px;
+    }
+    .about {
+        width: 100%;
+        display: inline-block;
+    }
+    .about p {
+        padding-top: 10px;
+        font-size: 1rem;
+    }
+    .about h2 {
+        display: none;
+    }
+    .social {
+        max-width: 100%;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .content {
+        top: -50px;
+    }
+    .logo {
+        height: 100px;
+        width: auto;
+        text-align: center;
+    }
+    .topbar {
+        display: none;
+    }
+    .wrapper2 {
+        text-align: center;
+    }
+    #vid6 {
+        display: none;
+    }
+    #vid5 {
+        display: none;
+    }
+    #vid4 {
+        display: none;
+    }
+    #vid3 {
+        display: none;
+    }
+    #vid2 {
+        display: none;
+    }
+    #vid1 {
+        width: 290px;
+        height: 180px;
+    }
+    #music {
+        height: 950px;
+    }
+    #video {
+        height: 430px;
+    }
+    .more {
+        margin-top: -110px;
+    }
+    body h2 {
+        font-size: 1rem;
+    }
+    .available h2 {
+        font-size: 1.2rem !important;
+    }
+    .soundframe, .sheetmusic {
+        width: 280px;
+        padding-bottom: 15px;
+    }
+    #contact {
+        height: 250px;
+    }
+    #contact a {
+        font-size: 1.1rem;
+    }
+    #contact h3 {
+        font-size: 1.4rem;
+    }
+    .contentf-inside {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    footer {
+        height: 15px;
+        padding-top: 7px;
+        background-color: white !important;
+    }
+    footer p {
+        font-size: 0.6rem;
+        color: #aaa;
+        padding-bottom: 3px;
+    }
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.5rem;
+    opacity: 1 !important;
+    font-weight: 400;
+    font-family: 'raleway', sans-serif;
+    }
+}
+
+a:hover {
+    color: #000;
+}
+
+a img {
+    opacity: 1;
+}
+
+a img:hover {
+    opacity: 0.8;
+    ;
+}
+
+#banner {
+    background: url("../images/hero.png") no-repeat center center;
+    background-size: cover;
+    max-height: 750px;
+    width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height:750px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper2 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.wrapper3 {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+    color: white;
+    font-weight: 300;
+    font-family: gravityul, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    font-family: gravityul, sans-serif;
+    padding: 0;
+    text-align: center;
+}
+
+#about-me {
+    position: relative;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+
+    padding-top: 30px;
+}
+
+#music {
+    position: relative;
+    width: 100%;
+
+    padding-top: 30px;
+    background-color: #fdfdfd;
+}
+
+#video {
+    position: relative;
+    width: 100%;
+
+    padding-top: 30px;
+    background-color: #f5f5f5;
+}
+
+#contact {
+    position: relative;
+    max-height: 600px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: #fdfdfd;
+}
+
+.aboutsection {
+    display: inline-block;
+    min-height: 360px;
+    min-width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.about-img {
+    display: inline-block;
+    /*border: green 2px solid;*/
+    text-align: center;
+}
+
+.about-img img {
+    max-width: 300px;
+    max-height: 300px;
+    /*border: green 2px solid;*/
+}
+
+.about {
+    /*border: blue solid 2px;*/
+    max-width: 590px;
+    max-height: 700px;
+    display: inline-block;
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    display: inline-block;
+}
+
+.musicsection {
+    display: flex-table;
+    height: 400px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.musicflex {
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.available h2 {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.more {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.more a {
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+
+.available img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.youtubesection {
+    display: flex;
+    height: 380px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.vid {
+    width: 320px;
+    height: 180px;
+}
+
+.youtubevids {
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.contact-section {
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact-content a {
+    font-size: 2.2rem;
+}
+
+p {
+    color: #020202;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+    color: #444;
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color: #020202;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 200;
+}
+
+html, body {
+    height: 100%;
+}
+
+.contentf {
+    min-height: 100%;
+}
+
+.contentf-inside {
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+footer {
+    max-height: 40px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
