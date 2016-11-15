@@ -231,7 +231,7 @@ li {
         height: 370px;
     }
     #video {
-        height: 650px;
+        height: 690px;
     }
     .more {
         margin-top: 50px;
@@ -315,7 +315,7 @@ li {
         height: 400px;
     }
     #video {
-        height: 900px;
+        height: 950px;
     }
     .more {
         margin-top: 300px;
@@ -338,6 +338,9 @@ li {
           margin-top: 150px;
         }
 
+.more { margin-top: 320px !important;
+
+}
 
 }
 
@@ -408,14 +411,14 @@ li {
         width: 320px;
     }
     #video {
-        height: 500px;
+        height: 550px;
     }
 
     #contact {
       height: 500px;
     }
     .more {
-        margin-top: -100px;
+        margin-top: -80px !important;
     }
     .available h2 {
         font-size: 1.5rem !important;
@@ -509,7 +512,7 @@ li {
         width: 320px;
     }
     #video {
-        height: 480px;
+        height: 500px;
     }
     .more {
         margin-top: -100px;
@@ -546,7 +549,9 @@ li {
       height: 300px;
       margin-top: 100px;
     }
-
+    .more {
+        margin-top: -80px !important;
+    }
 
 }
 
@@ -674,20 +679,30 @@ a {
     opacity: 1 !important;
     font-weight: 400;
     font-family: 'raleway', sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+
     }
 
 
 a:hover {
-    color: #000;
+    color: #999;
 }
 
 a img {
     opacity: 1;
+
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 
 a img:hover {
     opacity: 0.8;
-    ;
 }
 
 
@@ -864,13 +879,27 @@ u {
     width: 100%;
     position: relative;
     text-align: center;
+margin-top: 80px;
     font-family: 'Raleway', sans-serif;
 }
 
 .more a {
-    font-style: italic;
+    font-weight: 900 !important;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #eee;
+
+      background-color: #44bb55;
     font-family: 'Raleway', sans-serif;
 }
+
+
+.more a:hover {
+
+  background-color: #66cc77;
+
+}
+
 
 .available img {
     display: inline-block;
