@@ -53,19 +53,23 @@ li {
     text-align: center;
     display: inline-block;
     padding: 0 20px 0 20px;
-
     opacity: 1 !important;
 }
 
+
+
 @media screen and (min-width: 1500px) {
+
     #banner {
-        height: 700px;
+
     }
-.email {
+    #about-me {
+        height: 500px;
 
-  display: none;
-}
-
+    }
+    .email {
+        display: none;
+    }
     .social {
         width: 390px;
         margin-top: -70px;
@@ -75,19 +79,16 @@ li {
         height: 40px;
     }
     .content {
-        top: 100px;
+        top: 10px;
     }
     .logo {
         height: 300px;
         width: auto;
         text-align: center;
     }
-
     .about h2 {
-      line-height: 90px !important;
+        line-height: 90px !important;
     }
-
-
     #music {
         height: 850px;
     }
@@ -103,62 +104,60 @@ li {
         height: 400px;
     }
     #video {
-        height: 700px;
+        height: 800px !important;
     }
     .more {
-        margin-top: 50px;
+
+      top: 150px !important;
     }
     #about-me {
-      height: 500px;
-    }
+        height: 500px;
 
+    }
     #contact {
         height: 600px;
     }
-
-
 }
+
+
 
 @media screen and (min-width: 1000px) {
 
-  #banner {
-      height: 700px;
-  }
 
+    #banner {
 
+    }
 
-  .about h2 {
-    line-height: 90px !important;
-  }
+    .about h2 {
+        line-height: 90px !important;
+    }
+    .email {
+        display: none;
+    }
+    #banner {
+        height: 580px;
 
+    }
+    #about-me {
+        height: 500px;
 
-  .email {
-
-    display: none;
-  }
-
-
-#about-me {
-  height: 500px;
-}
-
-  .social {
-      width: 360px;
-
-      margin-top: -70px;
-  }
-  .social img {
-      width: 40px;
-      height: 40px;
-  }
-  .content {
-      top: 100px;
-  }
-  .logo {
-      height: 300px;
-      width: auto;
-      text-align: center;
-  }
+    }
+    .social {
+        width: 360px;
+        margin-top: -70px;
+    }
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+    .content {
+        top: 100px;
+    }
+    .logo {
+        height: 300px;
+        width: auto;
+        text-align: center;
+    }
     .about p {
         padding: 0 20px;
     }
@@ -174,51 +173,39 @@ li {
         height: 400px;
     }
     #video {
-        height: 700px;
+        height: 750px;
     }
     .more {
-        margin-top: 50px;
-    }
 
-    #contact{
-      height:500px;
+      top: 100px !important;
     }
-
+    #contact {
+        height: 500px;
+    }
     video {
-      height: 100%;
-      margin-top: 250px;
+        margin-top: 250px;
     }
-
-
 }
 
-@media screen and (max-width: 999px) and (min-width: 750px) {
-    #banner {
-        height: 700px;
-    }
 
+
+@media screen and (max-width: 999px) and (min-width: 750px) {
 
     .topbar {
         display: none;
     }
     .email {
-
-      display: none;
+        display: none;
     }
-
-
-.about h2 {
-  display: none;
-}
-
-.about {
-  min-width: 700px;
-}
-
-
-.about p {
-    padding-top: 10px;
-}
+    .about h2 {
+        display: none;
+    }
+    .about {
+        min-width: 700px;
+    }
+    .about p {
+        padding-top: 10px;
+    }
     .social {
         width: 100%;
         padding-top: 10px;
@@ -252,37 +239,32 @@ li {
         height: 690px;
     }
     .more {
-        margin-top: 50px;
-    }
 
+      top: 80px !important;
+    }
     #contact {
-
-      height: 500px;
+        height: 500px;
     }
-
     video {
-      height: 100%;
-      margin-top: 250px;
+        margin-top: 250px;
+        z-index: 0;
+        height: 500px !important;
     }
-
-
-}
-
-@media screen and (max-width: 749px) and (min-width: 600px) {
     #banner {
         height: 500px;
     }
+    .content {
+        z-index: 1;
+        top: 80px;
+    }
+}
 
-
-
-
+@media screen and (max-width: 749px) and (min-width: 600px) {
     .logo {
         width: 540px;
         height: auto;
         text-align: center;
     }
-
-
     #about-me {
         height: 650px;
     }
@@ -347,56 +329,53 @@ li {
     .wrapper2 {
         text-align: center;
     }
-
-
-        #contact {
-
-          height: 500px;
-        }
-
-        video {
-          height: 700px;
-          margin-top: 150px;
-        }
-
-.more { margin-top: 320px !important;
-
-}
-
+    #contact {
+        height: 500px;
+    }
+    video {
+        margin-top: 300px;
+        height: 400px !important;
+        z-index: 0;
+    }
+    #banner {
+        height: 450px;
+    }
+    .content {
+        z-index: 1;
+        top: 70px;
+    }
+    .more {
+        margin-top: 320px !important;
+    }
 }
 
 @media screen and (max-width: 599px) and (min-width: 421px) {
-  #banner {
-      height: 500px;
-  }
-  #about-me {
-      height: 700px;
-  }
-
-  .about {
-      width: 100%;
-      display: inline-block;
-  }
-  .about p {
-      padding-top: 10px;
-      font-size: 1.5rem;
-  }
-  .about h2 {
-      display: none;
-  }
-  .social {
-      width: 100%;
-      padding-top: 10px;
-  }
-  .social img {
-      height: 70px;
-      width: 80px;
-      padding: 0 5px;
-  }
+    #about-me {
+        height: 700px;
+    }
+    .about {
+        width: 100%;
+        display: inline-block;
+    }
+    .about p {
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+    .about h2 {
+        display: none;
+    }
+    .social {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .social img {
+        height: 70px;
+        width: 80px;
+        padding: 0 5px;
+    }
     .topbar {
         display: none;
     }
-
     .logo {
         width: 350px;
         height: auto;
@@ -434,9 +413,8 @@ li {
     #video {
         height: 550px;
     }
-
     #contact {
-      height: 500px;
+        height: 500px;
     }
     .more {
         margin-top: -80px !important;
@@ -448,16 +426,23 @@ li {
         font-size: 1.2rem;
     }
     video {
-      height: 700px;
-      margin-top: 150px;
+        margin-top: 300px;
+        height: 350px !important;
+        z-index: 0;
     }
-
-
+    #banner {
+        height: 350px;
+    }
+    .content {
+        z-index: 1;
+        top: 70px;
+    }
 }
 
 @media screen and (max-width: 420px) and (min-width: 322px) {
-    #banner {
-        height: 250px;
+
+    .topbar {
+        display: none;
     }
     .about-img img {
         width: 200px;
@@ -481,7 +466,6 @@ li {
         height: 50px;
         width: 58px;
         padding: 0 4px;
-
     }
     .content {
         top: -30px;
@@ -490,9 +474,6 @@ li {
         height: 100px;
         width: auto;
         text-align: center;
-    }
-    .topbar {
-        display: none;
     }
     .text h4 {
         font-size: 1rem;
@@ -519,9 +500,8 @@ li {
         width: 320px;
         height: 200px;
     }
-
     #about-me {
-      height: 500px;
+        height: 550px;
     }
     #music {
         height: 1060px;
@@ -548,10 +528,8 @@ li {
     #contact a {
         font-size: 1.2rem;
     }
-
     #contact {
-
-      height: 450px;
+        height: 450px;
     }
     .contentf-inside {
         padding: 0px;
@@ -566,32 +544,38 @@ li {
         font-size: 0.6rem;
         color: #aaa;
     }
-
     video {
-      height: 300px;
-      margin-top: 100px;
+        margin-top: 250px;
+        height: 350px !important;
+        right: 120px;
+        z-index: 0;
     }
-    .more {
-        margin-top: -80px !important;
+    #banner {
+        height: 300px;
     }
+    .content {
+        z-index: 1;
+        top: 70px;
+    }
+
+
+.more {
+    margin-top: -80px !important;
+}
+
 
 }
 
+
 @media screen and (max-width: 321px) and (min-width: 100px) {
-    #banner {
-        height: 200px;
-    }
-    .social {
-        width: 100%;
-    }
-    .social img {
-        height: 38px;
-        width: 42px;
-        padding: 0 2px;
+
+
+    .topbar {
+        display: none;
     }
     .about-img img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
     }
     .about {
         width: 100%;
@@ -599,26 +583,29 @@ li {
     }
     .about p {
         padding-top: 10px;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .about h2 {
         display: none;
     }
     .social {
-        max-width: 100%;
-        padding: 10px 30px;
-        text-align: center;
+        width: 100%;
+    }
+    .social img {
+        height: 50px;
+        width: 58px;
+        padding: 0 4px;
     }
     .content {
-        top: -50px;
+        top: 30px;
     }
     .logo {
         height: 100px;
         width: auto;
         text-align: center;
     }
-    .topbar {
-        display: none;
+    .text h4 {
+        font-size: 1rem;
     }
     .wrapper2 {
         text-align: center;
@@ -639,36 +626,41 @@ li {
         display: none;
     }
     #vid1 {
-        width: 290px;
+        width: 260px;
         height: 180px;
     }
+    #about-me {
+        height: 600px;
+
+
+    }
     #music {
-        height: 950px;
+        height: 980px;
+    }
+    .soundframe {
+        width: 260px;
+        padding-bottom: 20px;
+    }
+    .sheetmusic {
+        width: 260px;
     }
     #video {
-        height: 430px;
+        height: 500px;
     }
     .more {
-        margin-top: -110px;
+        margin-top: -70px;
     }
     body h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .available h2 {
-        font-size: 1.2rem !important;
-    }
-    .soundframe, .sheetmusic {
-        width: 280px;
-        padding-bottom: 15px;
-    }
-    #contact {
-        height: 250px;
+        font-size: 1.4rem !important;
     }
     #contact a {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
-    #contact h3 {
-        font-size: 1.4rem;
+    #contact {
+        height: 450px;
     }
     .contentf-inside {
         padding: 0px;
@@ -682,14 +674,27 @@ li {
     footer p {
         font-size: 0.6rem;
         color: #aaa;
-        padding-bottom: 3px;
+    }
+    video {
+        margin-top: 250px;
+        height: 280px !important;
+        right: 160px;
+        z-index: 0;
+    }
+    #banner {
+        height: 230px;
+    }
+    .content {
+        z-index: 1;
+
+
     }
 
-video {
-  height: 200px;
-  margin-top: 100px;
-}
 
+
+.more {
+    margin-top: -80px !important;
+}
 
 
 }
@@ -705,19 +710,16 @@ a {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-
-
-    }
+}
 
 
 a:hover {
     color: #999;
 }
 
+
 a img {
-
-  opacity: 1 !important;
-
+    opacity: 1 !important;
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
@@ -725,51 +727,49 @@ a img {
 }
 
 a img:hover {
-
-  opacity: 0.8 !important;
+    opacity: 0.8 !important;
 }
 
 
 video {
-    position: absolute;
-
-    left: 50%;
-  /*max-width: 100%;
-  max-height: 100%;
+    display: hidden;
+    position: relative;
+    top: -300px;
+    min-width: 100%;
     width: auto;
-    height: auto;*/
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-
-  transition: 0.01s opacity;
+    height: auto;
+    background: url('video/Hello-World.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
 }
 .stopfade {
-   opacity: 0.015;
+    opacity: .5;
 }
 
-
-
+header {
+    background-color: #f5f5f5;
+    overflow: hidden;
+    max-width: 100%;
+}
 
 
 #banner {
-
-    max-height: 750px;
-
-    width: 100%;
+    overflow: hidden;
+    max-height: 645px;
+    max-width: 100%;
 }
 
 .wrapper {
-  width: 100%;
-  height:750px;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
 }
-
 .wrapper2 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
 }
-
 .wrapper3 {
     max-width: 1000px;
     position: relative;
@@ -777,24 +777,20 @@ video {
     margin-right: auto;
     padding: 10px;
 }
-
 .content {
     width: 100%;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 40px;
     position: absolute;
     text-align: center;
 }
-
 h1 {
     font-size: 8rem;
     color: white;
     font-weight: 300;
     font-family: gravityul, sans-serif;
     text-align: center;
-
 }
-
 h4 {
     font-size: 2rem;
     color: white;
@@ -804,32 +800,25 @@ h4 {
     padding: 0;
     text-align: center;
 }
-
 #about-me {
     position: relative;
     width: 100%;
     background-color: #f5f5f5;
     text-align: center;
-
     padding-top: 30px;
 }
-
 #music {
     position: relative;
     width: 100%;
-
     padding-top: 30px;
     background-color: #fdfdfd;
 }
-
 #video {
     position: relative;
     width: 100%;
-
     padding-top: 30px;
     background-color: #f5f5f5;
 }
-
 #contact {
     position: relative;
     max-height: 600px;
@@ -837,7 +826,6 @@ h4 {
     width: 100%;
     background-color: #fdfdfd;
 }
-
 .aboutsection {
     display: inline-block;
     min-height: 360px;
@@ -845,44 +833,36 @@ h4 {
     padding: 5px 10px;
     text-align: center;
 }
-
 .about-img {
     display: inline-block;
     text-align: center;
 }
-
 .about-img img {
     max-width: 300px;
     max-height: 300px;
 }
-
 .about {
     max-width: 590px;
     max-height: 700px;
     display: inline-block;
 }
-
 .social {
     text-align: center;
 }
-
 .social img {
     display: inline-block;
 }
-
 .musicsection {
     display: flex-table;
     height: 400px;
     padding-top: 35px;
     text-align: center;
 }
-
 .musicflex {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
 }
-
 .available h2 {
     width: 100%;
     margin-top: 20px;
@@ -891,75 +871,63 @@ h4 {
     font-size: 3rem;
     font-family: 'Raleway', sans-serif;
 }
-
 u {
     text-decoration: none;
     border-bottom: 1px solid black;
 }
 
+
 .more {
     width: 100%;
     position: relative;
     text-align: center;
-margin-top: 80px;
     font-family: 'Raleway', sans-serif;
 }
+
 
 .more a {
     font-weight: 900 !important;
     padding: 10px 30px;
     border-radius: 50px;
     color: #eee;
-
-      background-color: #666;
+    background-color: #666;
     font-family: 'Raleway', sans-serif;
+
 }
-
-
 .more a:hover {
-
-  background-color: #333;
-
+    background-color: #333;
 }
-
-
 .available img {
     display: inline-block;
     width: 70px;
     height: 70px;
     padding: 10px;
 }
-
 .youtubesection {
     display: flex;
     height: 380px;
     padding-top: 40px;
     text-align: center;
 }
-
 .vid {
     width: 320px;
     height: 180px;
 }
-
 .youtubevids {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
 }
-
 .contact-section {
     height: 150px;
     padding-top: 40px;
     text-align: center;
     padding: 5px;
 }
-
 .contact-content a {
     font-size: 2.2rem;
 }
-
 p {
     color: #020202;
     font-size: 1.8rem;
@@ -967,7 +935,6 @@ p {
     font-weight: 300;
     font-family: 'Libre Franklin', sans-serif;
 }
-
 h2 {
     color: #444;
     font-size: 4rem;
@@ -976,7 +943,6 @@ h2 {
     font-weight: 200;
     font-family: 'Raleway', sans-serif;
 }
-
 h3 {
     color: #020202;
     font-size: 2.5rem;
@@ -984,34 +950,27 @@ h3 {
     padding: 20px 0;
     font-weight: 200;
 }
-
 html, body {
     height: 100%;
 }
-
 .contentf {
     min-height: 100%;
 }
-
 .contentf-inside {
     padding: 0px;
     padding-bottom: 20px;
 }
-
 footer {
     max-height: 40px;
     padding-top: 10px;
 }
-
 footer p {
     font-size: 1rem;
 }
-
-
 .logo {
-
-  opacity: 0.9;
+    opacity: 0.9;
 }
+
 /*.email {
 
   background-color: #D50000;

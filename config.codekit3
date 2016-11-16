@@ -257,6 +257,14 @@
 		"oAP": "\/images\/trevor.webm",
 		"oF": 0
 		},
+	"\/images\/trevorthumbnail.png": {
+		"ft": 32768,
+		"iS": 2549544,
+		"oA": 0,
+		"oAP": "\/images\/trevorthumbnail.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/images\/youtube.png": {
 		"ft": 32768,
 		"iS": 4126,
@@ -269,12 +277,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/indexTK.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/indexTK.html",
 		"oF": 0
 		},
 	"\/javascript-min.js": {
