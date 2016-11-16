@@ -49,4 +49,4 @@ pauseButton.addEventListener("click", function() {
     vid.pause();
     pauseButton.innerHTML = "Paused";
   }
-})
+});
