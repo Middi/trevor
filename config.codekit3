@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/css\/normalize.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/normalize-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/normalize.min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -29,16 +19,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/stylesheet-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/stylesheet-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/stylesheet.css": {
 		"aP": 0,
 		"bl": 0,
@@ -46,26 +26,6 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/v2stylesheet-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/v2stylesheet-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/v2stylesheet.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/v2stylesheet-min.css",
 		"oF": 0,
 		"oS": 0
 		},
